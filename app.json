@@ -6,7 +6,7 @@
   "keywords": ["node", "express", "static"],
   "env": {
     "CAPTCHA_SECRET": {
-      "description": "A secret key for verifying the integrity of signed cookies.",
+      "description": "Use this secret key for communication between your site and reCAPTCHA.",
       "required": true
     }
   }
