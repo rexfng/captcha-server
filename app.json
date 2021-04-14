@@ -2,11 +2,12 @@
   "name": "Captcha Server",
   "description": "A easy to deploy captcha server template",
   "repository": "https://github.com/rexfng/captcha-server",
-  "logo": "https://node-js-sample.herokuapp.com/node.png",
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/RecaptchaLogo.svg/260px-RecaptchaLogo.svg.png",
   "keywords": ["node", "express", "static"],
   "env": {
     "CAPTCHA_SECRET": {
       "description": "A secret key for verifying the integrity of signed cookies.",
+      "required": true
     }
   }
 }
