@@ -3,7 +3,9 @@ const express = require('express')
 const app = express()
 const axios = require('axios');
 const qs = require('qs');
+const cors = require('cors')
 
+app.use(cors())
 app.get('/', function (req, res) {
 	axios({
 	  method: 'POST',
